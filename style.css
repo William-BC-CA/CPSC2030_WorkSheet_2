@@ -41,6 +41,12 @@ body {
 
 .app-header .container {
   /* TODO: Header Layout using Flexbox*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  padding: 1px; /* FIXME: FIX SIZE! */
 }
 
 .app-header .logo {
@@ -56,8 +62,12 @@ body {
 
 .subheader {
   /* TODO: Subheader Layout using Flexbox*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* TODO: Use CSS variable for background color*/
-  background-color: blue;
+  background-color: var(--secondary-color);
+  /* background-color: blue; */
   color: #fff;
   box-shadow: 3px 3px 10px #888;
   margin: 0 auto 16px auto;
@@ -76,10 +86,18 @@ body {
 
 .grid {
   /* TODO: Grid Div Layout using CSS Grid*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px; /*FIXME: Might need to fix! */
 }
 
 .grid .item {
   /* TODO: Grid Item layout using Flexbox*/
+  display: flex;
+  flex-direction: column;
+  padding: 1px; /* FIXME: FIX! */
+  color: var(--secondary-color);
+  align-self: flex-end;
   border: 1px #ccc solid;
   box-shadow: 1px 1px 2px #ccc;
 }
@@ -106,10 +124,18 @@ body {
 
 .app-footer ul {
   /* TODO: Footer <ul> layout using Flexbox*/
+  display: flex;
+  align-item: center; /* FIXME: FIX! */
+  justify-content: center; /* FIXME: FIX! */
+  list-style: none;
 }
 
 .app-footer ul li {
   /* TODO: Footer <li> layout using Flexbox*/
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* FIXME: FIX! */
+  justify-content: center; /* FIXME: FIX! */
 }
 
 .app-footer ul li i {
@@ -141,3 +167,6 @@ body {
 }
 
 /* TODO: Desktop media query*/
+@media(min-width: 768px){
+
+}
