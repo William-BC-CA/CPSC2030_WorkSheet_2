@@ -15,15 +15,19 @@
 html,
 body {
   /* TODO: Stick footer*/
+  height: 100%;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   /* TODO: Stick footer*/
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
   /* TODO: Stick footer*/
+  flex: 1 0 auto;
 }
 
 .container {
@@ -37,6 +41,7 @@ body {
 .app-header {
   background-color: orange;
   box-shadow: 3px 3px 10px #888;
+  flex-shrink: 0;
 }
 
 .app-header .container {
@@ -145,7 +150,7 @@ body {
 /*Splash Screen*/
 #splash {
   /* TODO: Splash Screen*/
-  visibility: hidden;
+  /* visibility: hidden; */
   position: absolute;
   top: 0;
   left: 0;
@@ -156,6 +161,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: opacity 2s;
+  background-color: var(--primary-color);
 }
 
 #splash img {
@@ -168,5 +175,7 @@ body {
 
 /* TODO: Desktop media query*/
 @media(min-width: 768px){
-
+  .grid .item img {
+    width: 60px;
+  }
 }
