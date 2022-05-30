@@ -1,7 +1,7 @@
 /*CPSC 2030: Worksheet 2*/
 
 :root {
-  /* @todo Set CSS Variables on root scope*/
+  /* TODO: Set CSS Variables on root scope*/
   --primary-color: #cc0000;
   --secondary-color: #7c0000;
 }
@@ -14,16 +14,16 @@
 
 html,
 body {
-  /* @todo: Stick footer*/
+  /* TODO: Stick footer*/
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* @todo: Stick footer*/
+  /* TODO: Stick footer*/
 }
 
 .content {
-  /* @todo: Stick footer*/
+  /* TODO: Stick footer*/
 }
 
 .container {
@@ -33,14 +33,14 @@ body {
   overflow: none;
 }
 
-/* @todo: */
+/* TODO: */
 .app-header {
   background-color: orange;
   box-shadow: 3px 3px 10px #888;
 }
 
 .app-header .container {
-  /* @todo: Header Layout using Flexbox*/
+  /* TODO: Header Layout using Flexbox*/
 }
 
 .app-header .logo {
@@ -55,8 +55,8 @@ body {
 }
 
 .subheader {
-  /* @todo: Subheader Layout using Flexbox*/
-  /* @todo: Use CSS variable for background color*/
+  /* TODO: Subheader Layout using Flexbox*/
+  /* TODO: Use CSS variable for background color*/
   background-color: blue;
   color: #fff;
   box-shadow: 3px 3px 10px #888;
@@ -75,28 +75,28 @@ body {
 }
 
 .grid {
-  /* @todo: Grid Div Layout using CSS Grid*/
+  /* TODO: Grid Div Layout using CSS Grid*/
 }
 
 .grid .item {
-  /* @todo: Grid Item layout using Flexbox*/
+  /* TODO: Grid Item layout using Flexbox*/
   border: 1px #ccc solid;
   box-shadow: 1px 1px 2px #ccc;
 }
 
 .grid .item p {
-  /* @todo: Set Color using CSS Variable*/
+  /* TODO: Set Color using CSS Variable*/
   font-size: 14px;
   margin-bottom: 20px;
 }
 
 .grid .item img {
   width: 30px;
-  /* @todo: Use the align-self property to position the image*/
+  /* TODO: Use the align-self property to position the image*/
 }
 
 .app-footer {
-  /* @todo: Stick footer*/
+  /* TODO: Stick footer*/
   background: #f4f4f4;
   color: #444;
   padding: 10px;
@@ -105,11 +105,11 @@ body {
 }
 
 .app-footer ul {
-  /* @todo: Footer <ul> layout using Flexbox*/
+  /* TODO: Footer <ul> layout using Flexbox*/
 }
 
 .app-footer ul li {
-  /* @todo: Footer <li> layout using Flexbox*/
+  /* TODO: Footer <li> layout using Flexbox*/
 }
 
 .app-footer ul li i {
@@ -118,7 +118,7 @@ body {
 
 /*Splash Screen*/
 #splash {
-  /* @todo: Splash Screen*/
+  /* TODO: Splash Screen*/
   visibility: hidden;
   position: absolute;
   top: 0;
@@ -140,4 +140,4 @@ body {
   opacity: 0;
 }
 
-/* @todo: Desktop media query*/
+/* TODO: Desktop media query*/
